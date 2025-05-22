@@ -1,0 +1,56 @@
+.thanks__content {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: 'Inika', sans-serif;
+    color: #8B7969;
+}
+
+.thanks__content::before {
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: rgba(139, 121, 105, 0.05);
+    font-family: 'Inika', sans-serif;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.thanks__heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.thanks__heading h2 {
+    font-size: 20px;
+    color: #8B7969;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form__button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form__button-home {
+    background-color: #7d6250;
+    color: white;
+    padding: 0.7em 2em;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: 'Inika', sans-serif;
+}
+
+.form__button-home:hover {
+    opacity: 0.9;
+}

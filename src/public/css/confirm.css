@@ -1,0 +1,120 @@
+.confirm__content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #FFFFFF;
+    font-family: 'Inika', sans-serif;
+    color: #8B7969;
+}
+
+.confirm__heading {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.confirm__heading h2 {
+    font-size: 35px;
+    color: #8B7969;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    font-size: 20px;
+    line-height: 1.6;
+    table-layout: fixed;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border: 1px solid #E0DCD8;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #E0DCD8
+}
+
+.confirm-table__header {
+    background-color: #BAA899;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 16px 20px;
+    width: 30%;
+    font-weight: 400;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.confirm-table__text {
+    background-color: #FFFFFF;
+    padding: 16px 20px;
+    color: #8B7969;
+    width: 70%;
+    vertical-align: top;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.confirm-table__text input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    color: #8B7969;
+    font-size: 20px;
+}
+
+.name-input {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.name-input .form__input--text {
+    width: auto;
+}
+
+.name-input input {
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    color: #8B7969;
+    font-size: 20px;
+    width: 100%;
+    max-width: 150px;
+    text-align: left;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.form__button-submit {
+    background-color: #82756A;
+    color: white;
+    padding: 0.7em 2em;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inika', sans-serif;
+}
+
+.form__button-submit:hover {
+    opacity: 0.9;
+}
+
+.form__button-modify {
+    background: none;
+    color: #8B7969;
+    padding: 0.7em 2em;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form__button-modify:hover {
+    opacity: 0.8;
+}

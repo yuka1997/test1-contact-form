@@ -1,0 +1,57 @@
+body {
+  font-family: 'Inika', serif;
+  font-weight: 400;
+  background-color: #E0DFDE;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #E0DFDE;
+  padding: 20px 0;
+}
+
+.header__inner {
+  max-width: 1200px;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.header__logo {
+  font-family: 'Inika', serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #8B7969;
+}
+
+.heading {
+  font-family: 'Inika', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+.form__label--required {
+  margin-left: 5px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #FF9494;
+}
+
+.form__error {
+  height: 20px;
+  color: #FF9494;
+  text-align: left;
+}
