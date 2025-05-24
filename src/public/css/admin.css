@@ -1,0 +1,250 @@
+body {
+    background-color: #FFFFFF;
+    color: #8B7969;
+    font-family: 'Inika', serif;
+}
+
+.admin-content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.form__heading {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: 'Inika', serif;
+}
+
+.form {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 120px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form-button__submit--find,
+.form-button__submit--reset,
+.form-button__submit--export,
+.form-button__submit--detail,
+.form-button__submit--delete {
+    padding: 6px 16px;
+    font-size: 18px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.form-button__submit--find {
+    background-color: #82756A;
+    color: #FFFFFF;
+    border: none;
+    white-space: nowrap;
+}
+
+.form-button__submit--reset {
+    background-color: #D9C6B5;
+    border: none;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.form-button__submit--detail {
+    background-color: #F4F4F44D;
+    color: #D9C6B5;
+    border: 1px solid #D9C6B599;
+    padding: 4px 10px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.form-button__submit--export {
+    background-color: #E1DBD699;
+    color: #8B7969;
+    border: none;
+}
+
+.form-button__submit--find:hover,
+.form-button__submit--reset:hover,
+.form-button__submit--export:hover,
+.form-button__submit--detail:hover,
+.form-button__submit--delete:hover {
+    opacity: 0.8;
+}
+
+.admin-table {
+    width: 100%;
+    border: 1px solid #E0DFDE;
+    margin-bottom: 20px;
+}
+
+.admin-table th {
+    background-color: #8B7969;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.admin-table td {
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.admin-table a.form-button__submit {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pagination-export-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.admin-pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    min-width: 200px;
+}
+
+.admin-pagination .pagination {
+    display: flex;
+    list-style: none;
+    gap: 6px;
+    padding: 0;
+}
+
+.admin-pagination .pagination li {
+    display: inline-block;
+}
+
+.admin-pagination .pagination li a {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+}
+
+.admin-pagination .pagination li.active span {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #8B7969;
+    background-color: #FFFFFF;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+}
+
+.admin-pagination .pagination li span {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+}
+
+.modal-wrapper {
+    background-color: #FFFFFF;
+}
+
+/* モーダルの中身のボックス */
+.modal-content {
+    background-color: #FFFFFF;
+    border: 1px solid #8B7969;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-size: 20px;
+    font-family: 'Inika', serif;
+}
+
+/* モーダルのテーブル */
+.modal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.modal-table th {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    width: 30%;
+    background-color: #FFFFFF;
+    color: #8B7969;
+    padding: 8px;
+}
+
+.modal-table td {
+    padding: 8px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #8B7969;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    font-size: 20px;
+    color: #8B7969;
+    cursor: pointer;
+    border-radius: 9999px;
+    border: 1px solid #8B7969;
+    font-family: 'Inika', serif;
+}
+
+.form-button__submit--delete {
+    background-color: #BA370D;
+    color: #FFFFFF;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

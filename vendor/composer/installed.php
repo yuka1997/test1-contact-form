@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8b54c6cfd313d6e3ea8ed0239b41ac5fcd4f8713',
+        'reference' => 'c0dddae54837f57ffd6e2737758094410999bd11',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8b54c6cfd313d6e3ea8ed0239b41ac5fcd4f8713',
+            'reference' => 'c0dddae54837f57ffd6e2737758094410999bd11',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -99,6 +99,15 @@
             'install_path' => __DIR__ . '/../illuminate/support',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'laravel-lang/lang' => array(
+            'pretty_version' => '7.0.9',
+            'version' => '7.0.9.0',
+            'reference' => '679a65755db37b35acd36a5e0ca51e055815a00a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel-lang/lang',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'laravel/fortify' => array(
             'pretty_version' => 'v1.25.4',

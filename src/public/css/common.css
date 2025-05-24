@@ -2,7 +2,6 @@ body {
   font-family: 'Inika', serif;
   font-weight: 400;
   background-color: #E0DFDE;
-  color: #000;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -23,6 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 20px;
+  position: relative;
 }
 
 .header__logo {
@@ -37,6 +37,30 @@ body {
   font-family: 'Inika', sans-serif;
   font-weight: 400;
   font-size: 35px;
+}
+
+.header__button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__button-item {
+  color: #8B7969;
+  border: 1px solid #D9C6B5;
+  padding: 0.3em 1em;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Inika', serif;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.header__button-item:hover {
+  background-color: #f1e8e2;
 }
 
 main {
