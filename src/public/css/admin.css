@@ -148,6 +148,11 @@ body {
     list-style: none;
     gap: 6px;
     padding: 0;
+    border: 1px solid #E0DFDE;
+    border-radius: 4px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .admin-pagination .pagination li {
@@ -159,10 +164,9 @@ body {
     padding: 6px 12px;
     font-size: 13px;
     color: #8B7969;
-    background-color: #F4F4F4;
     border-radius: 4px;
     text-decoration: none;
-    border: none;
+    border: 1px solid #E0DFDE;
 }
 
 .admin-pagination .pagination li.active span {
@@ -170,9 +174,9 @@ body {
     padding: 6px 12px;
     font-size: 13px;
     font-weight: bold;
-    color: #8B7969;
-    background-color: #FFFFFF;
-    border: 1px solid #8B7969;
+    color: #FFFFFF;
+    background-color: #8B7969;
+    border: 1px solid #E0DFDE;
     border-radius: 4px;
 }
 
@@ -189,7 +193,6 @@ body {
     background-color: #FFFFFF;
 }
 
-/* モーダルの中身のボックス */
 .modal-content {
     background-color: #FFFFFF;
     border: 1px solid #8B7969;
@@ -200,7 +203,6 @@ body {
     font-family: 'Inika', serif;
 }
 
-/* モーダルのテーブル */
 .modal-table {
     width: 100%;
     border-collapse: collapse;

@@ -87,7 +87,7 @@
               <tr><th>住所</th><td>{{ preg_replace('/^\d{3}-\d{4}\s*/', '', $contact->address) }}</td></tr>
               <tr><th>建物名</th><td>{{ $contact->building }}</td></tr>
               <tr><th>お問い合わせの種類</th><td>{{ optional($contact->category)->content }}</td></tr>
-              <tr><th>お問い合わせ内容</th><td>{{ $contact->content }}</td></tr>
+              <tr><th>お問い合わせ内容</th><td>{{ $contact->detail }}</td></tr>
             </table>
             <form action="{{ route('admin.destroy', $contact->id) }}" method="POST">
               @csrf
